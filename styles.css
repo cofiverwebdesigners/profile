@@ -36,14 +36,25 @@ larger
 
 lets also ensure that the test for this decription is justifield  */
 #about-me{
+	margin-left:3%;
+	width:90%;
 	text-align:justify;
 	text-justify: inter-word;
-	font-size:30px;
+	font-size:35px;
 	font-family:sans-seris;
 	line-height:1.5;
 }
+#about-me p{
+	margin-top:-3%;
+}
+
+ul{
+	margin-top:-2%;
+}
 
 #skills{
+	margin-left:3%;
+	width:100%;
 	font-size:20px;
 	font-family:sans-seris;
 	line-height:1.5;
@@ -57,7 +68,7 @@ footer{
 	width:100%;
 	height:10vh;
 }
-.technical{
+.technical,span{
 	color:#00aa00;
 }
 .non-technical{
