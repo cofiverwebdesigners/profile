@@ -1,0 +1,65 @@
+
+header{
+	background:#00aa00;
+	display:flex;
+	font-family:Verdana;
+	font-size:20px;
+	border-radius:10px;
+}
+
+#tagline{
+	margin-left:10%;
+}
+
+
+/*lets make sure the profile picture is rounded and its at centroid position 
+of its parent container 
+*/
+#profile-pic img{
+	border-radius:50%;
+	width:15%;
+	height:25vh;
+}
+
+#profile-pic{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	height:30vh;
+}
+
+
+
+/*lets make sure that the font size for the about me section is 
+larger
+
+lets also ensure that the test for this decription is justifield  */
+#about-me{
+	text-align:justify;
+	text-justify: inter-word;
+	font-size:30px;
+	font-family:sans-seris;
+	line-height:1.5;
+}
+
+#skills{
+	font-size:20px;
+	font-family:sans-seris;
+	line-height:1.5;
+}
+
+footer{
+	font-size:20px;
+	background:gray;
+	display:flex;
+	justify-content:center;
+	width:100%;
+	height:10vh;
+}
+.technical{
+	color:#00aa00;
+}
+.non-technical{
+	color:#f05d21;
+}
